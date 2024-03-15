@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html First Table</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: larger;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        table {
+            margin-top: 3%;
+            margin-bottom: 4%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>School Time Table</h1>
+    </header>
+    <hr>
+    <main>
+        <table style="margin-left: 350px;">
+            <thead>
+                <tr>
+                    <th colspan="6">Time-Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="6">Hours</th>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wednesday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>Physics</td>
+                    <td>Computer</td>
+                    <td>English</td>
+                    <td>Islamiyat</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>Physics</td>
+                    <td>Computer</td>
+                    <td>English</td>
+                    <td>Islamiyat</td>
+                </tr>
+                <tr>
+                    <th colspan="6">Lunch</th>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>Arts</td>
+                    <td>Practical</td>
+                    <td rowspan="2">Projects</td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>Arts</td>
+                    <td>Practical</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="7">By Muhammad Binyameen</th>
+            </tfoot>
+        </table>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright-&copy;-2024</p>
+    </footer>
+</body>
+
+</html>

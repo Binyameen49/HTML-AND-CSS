@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: larger;
+            font-weight: 300;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 5%;
+        }
+
+        h1 {
+            text-align: right;
+            margin: 10px;
+            font-size: larger !important;
+        }
+
+        #address {
+            margin-left: 150px;
+            padding-right: 150px;
+        }
+
+        form {
+            background-color: rgb(241, 241, 241);
+            width: 100%;
+            height: 100%;
+        }
+
+        label {
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        textarea,
+        input {
+            padding: 10px;
+            margin: 10px;
+            justify-items: end;
+            padding-right: 250px;
+        }
+
+        button {
+            padding: 15px 25px;
+            margin-left: 50px;
+        }
+        #checkbox{
+            margin-left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <a href="#">Student Registartion Form</a>
+    </h1>
+    <form action="">
+        <div class="first-name">
+            <label for="fname">First name:</label>
+            <input id="fname" type="text" placeholder="Enter Your First Name">
+        </div>
+        <div class="last-name">
+            <label for="lname">Last name:</label>
+            <input id="lname" type="text" placeholder="Enter Your Last Name">
+        </div>
+        <div class="email">
+            <label for="email">E-Address:</label>
+            <input id="email" type="email" placeholder="Enter Email Address">
+        </div>
+        <div class="password">
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Email Password">
+        </div>
+        <div class="gender">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+        </div>
+        <div class="birth">
+            <label for="birth">Date Of Birth:</label>
+            <input type="date" name="birth" id="birth">
+        </div>
+        <div class="address">
+            <label for="address">Address:</label><br>
+            <textarea name="Address" id="address" cols="30" rows="10" placeholder="Your Messege Here..."></textarea>
+        </div>
+        <div class="city">
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div class="area">
+            <label for="area">Area</label>
+            <input type="number" name="area" id="area">
+        </div>
+        <div class="state">
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state">
+        </div>
+        <div class="education">
+            <label for="edu">Qualification:</label>
+            <select name="edu" id="edu">
+                <option value="none" disabled selected>Select Qualification</option>
+                <option value="FSC4">Computer Science</option>
+                <option value="FSC1">Information technology</option>
+                <option value="FSC2">Computer Architecture</option>
+                <option value="FSC3">tele Communication</option>
+            </select>
+        </div>
+        <br>
+        <div class="specialization">
+            <label for="spec">Specialization:</label><br>
+            <div id="checkbox">
+                <input type="checkbox" name="CS" id="CS"> Computer Science
+                <input type="checkbox" name="CS" id="CS"> Information technology
+                <input type="checkbox" name="CS" id="CS"> Computer Architecture
+                <input type="checkbox" name="CS" id="CS"> tele Communication
+            </div>
+        </div>
+        <div class="thanks">
+            <label for="thanks">Thanks!</label>
+            <input type="text" name="thanks" id="thanks" placeholder="Comments!">
+        </div>
+        <br>
+        <button type="submit">Click Here</button>
+    </form>
+</body>
+
+</html>

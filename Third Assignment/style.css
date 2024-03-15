@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100% !important;
+    min-height: 110vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./Pictures/Banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* nav ul li:nth-child(1) {
+    background-color: rgb(225,79,79);
+} */
+
+nav ul li:hover {
+    background-color: rgb(225, 79, 79);
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.content p {
+    font-weight: bolder;
+    font-size: 65px;
+    line-height: 75px;
+    /* padding: 10px; */
+    margin: 20px;
+    color: white;
+}
+
+.content span {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    line-height: 20px;
+}
+
+.content button a {
+    color: white !important;
+}
+
+.nav-btn {
+    background-color: #e14f4f;
+    border: 0;
+    padding: 15px 45px;
+    color: white !important;
+    margin-right: 30px;
+}
+
+.nav-btn:hover {
+    background-color: #d83a3a;
+}
+
+.nav-btn a {
+    color: white !important;
+}
+
+.banner-button {
+    background-color: #d83a3a;
+    border: 0;
+    padding: 15px 45px;
+    /* padding: 15px 20px; */
+    margin-top: 50px;
+    margin-inline: 5px;
+}
+
+.banner-button:hover {
+    background-color: #d02f2f;
+}
+
+.discover {
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 35px;
+    background-color: rgb(237, 246, 247);
+    display: flex;
+    vertical-align: middle;
+    margin: 80px 20px 20px 20px;
+}
+
+.discover .discover-btn {
+    width: 40%;
+    margin: 0;
+    padding: 20px 100px;
+}
+
+.discover .discover-btn h1 {
+    font-size: 70px;
+    line-height: 75px;
+}
+
+.discover .discover-btn p {
+    font-size: 25px;
+}
+
+button a {
+    color: white !important;
+}
+
+.disco-btn {
+    background-color: #d83a3a;
+    border: 0;
+    padding: 15px 45px;
+}
+
+.disco-btn:hover {
+    background-color: #d02f2f;
+}
+
+.discover .discover-img {
+    width: 60% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.discover .discover-img img {
+    width: 100%;
+}
+
+
+.pizza {
+    height: 70vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Dives {
+    width: 20%;
+    background-color: #ECF5F7;
+    margin: 10px;
+    padding: 60px 40px;
+    border-radius: 12px;
+    border: 7px solid rgb(228, 228, 228);
+}
+
+.Dives:hover {
+    transition: all 1s ease;
+    cursor: pointer;
+    transform: translate(0px, -10px);
+}
+
+
+.Dives1 {
+    width: 20%;
+    background-color: #e14f4f;
+    margin: 10px;
+    padding: 60px 40px;
+    border-radius: 12px;
+    border: 7px solid rgb(228, 228, 228);
+}
+
+.Dives1:hover {
+    transition: all 1s ease;
+    cursor: pointer;
+    transform: translate(0px, -10px);
+}
+
+.Dives1 .fa-cutlery {
+    font-size: 70px;
+    color: black;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.Dives1 h4 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 0px;
+    color: white;
+}
+
+.Dives1 p {
+    color: white;
+}
+
+
+.Dives h4 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 0px;
+}
+
+
+.Dives .fa-cutlery {
+    font-size: 70px;
+    color: white;
+    background-color: #414143;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+
+.Dives .fa-book {
+    font-size: 70px;
+    color: white;
+    background-color: #414143;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* ============order */
+
+
+.favorite {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: aquamarine;
+}
+
+.first-row {
+    width: 100% !important;
+    background-color: #e14f4f;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.first-row .first-child-div {
+    margin: 35px;
+}
+
+.first-row .first-child-div img{
+    width: 100%;
+    margin-bottom: 25px;
+}
